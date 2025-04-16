@@ -4,7 +4,7 @@ from pymodbus.client import ModbusTcpClient
 # Define Modbus server details
 IP_ADDRESS = "10.10.10.10"  # Replace with your device's IP
 PORT = 502  # Default Modbus TCP port
-UNIT_ID = 1  # Modbus slave ID
+slave = 1  # Modbus slave ID
 
 # Create Modbus client
 client = ModbusTcpClient(IP_ADDRESS, port=PORT)
@@ -14,6 +14,7 @@ if client.connect():
     print("✅ Connected to Modbus TCP device")
 
     # MDX+ Modbus TCP example, find Register table in the manual
+    
     # --- Read holding registers ---
     response = client.read_holding_registers(address=0, count=50, slave=1)
     if response.isError():
@@ -26,7 +27,7 @@ if client.connect():
         signed_val = struct.unpack('>i', raw)[0]
         print(f"🧭 Immediate Absolute Position (IP): {signed_val}")
 
-    # --- Write ---
+    # --- Write holding registers ---
     try:
         # Ask user for an unsigned 16-bit value
         user_input = input("Enter HEX value to write to register 124(40125): ")
