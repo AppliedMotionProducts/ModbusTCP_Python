@@ -25,8 +25,8 @@ if client.connect():
         # Read Absolute Position
         # Extract signed 32-bit value from registers 6 and 7 (big-endian) (40007 and 40008 as per manual)
         raw = struct.pack('>HH', response.registers[6], response.registers[7])
-        signed_val = struct.unpack('>i', raw)[0]
-        print(f"🧭 Immediate Absolute Position (IP): {signed_val}")
+        Abs_Pos = struct.unpack('>i', raw)[0]
+        print(f"🧭 Immediate Absolute Position (IP): {Abs_Pos}")
 
         # Read Status Code
         # Extract signed 32-bit value from registers 2 and 3 (big-endian) (40003 and 40004 as per manual)
