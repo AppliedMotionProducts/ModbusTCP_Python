@@ -1,8 +1,8 @@
 # ModbusTCP_Python
 
-➡️ Modbus TCP example Python program
+➡️ Modbus TCP.py example Python program for reading and writing Holding Register. 
 
-➡️ Use attached Modbus manual for register table information
+➡️ Use attached Modbus manual for register table information.
 
 ➡️ Use AMP_Opcodes.py for different Op codes to be written to holding register 40125. This values are used to control the motor operation. 
 
