@@ -1,4 +1,4 @@
-# ModbusTCP_Python install PyModbus library from https://pymodbus.readthedocs.io/en/latest/index.html
+# install PyModbus library from https://pymodbus.readthedocs.io/en/latest/index.html
 
  🛑 Modbus register address changes based on the product. Use attached Modbus manual for register table information.
 
