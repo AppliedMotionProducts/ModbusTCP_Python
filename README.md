@@ -2,7 +2,7 @@
 
 ➡️ Use attached Modbus manual for register table information.
 
-➡️ Connection.py example to connect to Modbus TCP device. 
+➡️ Connection.py example for connecting to Modbus TCP device. 
 
 ➡️ Read_Holding_Registers.py example program for reading Holding Register. 
 
