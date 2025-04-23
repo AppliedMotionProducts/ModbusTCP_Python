@@ -37,7 +37,7 @@ AC = 10 * 6 # Writing 10 rps/s
 DE = 10 * 6 # Writing 10 rps/s
 
 # Unsigned 16-bit DINT value to write Vel at register address 40030
-VE = 1 * 240 # Writing 3 rps
+VE = 3 * 240 # Writing 3 rps
 
 SLAVE_ID = 32  # Get Slave ID using Applied Motion Software for TSM motor it is step servo quick tuner software
 
