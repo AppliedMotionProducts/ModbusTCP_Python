@@ -8,11 +8,13 @@
 
  🧑‍💻 User need to make sure Modbus Mode is enabled using Applied Motion Products. Check product related software at https://www.applied-motion.com/s/
 
- ⬇️ Below of the example for TSM motor using Step Servo Quick Tuner software. Modbus mode is checked ✅ as shown below. 
+ ⬇️ Below of the example for TSM motor using Step Servo Quick Tuner software. Modbus RTU mode is checked ✅ as shown below. 
 
  ![image](https://github.com/user-attachments/assets/cf70f2e5-ee00-41f5-8685-90d4e6ecfe65)
 
-
+ ⬇️ Below of the example for ST10-IP drive using ST Configurator software. Modbus mode is checked ✅ as shown below. 
+ 
+ ![image](https://github.com/user-attachments/assets/b90cad33-ad79-4291-9211-6e7a02cd73f5)
 
 
 
