@@ -33,7 +33,7 @@ if client.connect():
         Status_Code = (response.registers[2] << 16) | response.registers[3]
         print(f"🛎️ Status Code (SC): {Status_Code}")
 
-        # Read Immediate Actual Velocity (IV) from Register 16 (400017 as per manual)
+        # Read Immediate Actual Velocity (IV) from Register 16 (40017 as per manual)
         Act_Vel = response.registers[16]/240.0
         print(f"🏃‍♂️ Immediate Actual Velocity (IV): {Act_Vel}")
 
