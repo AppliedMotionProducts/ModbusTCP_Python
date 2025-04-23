@@ -1,6 +1,10 @@
 ![image](https://github.com/user-attachments/assets/d64e28f2-f9b3-44cf-b69a-8fceb20bb215)
 
 # Install PyModbus library from https://pymodbus.readthedocs.io/en/latest/index.html
+ (You can install using pip by issuing the following commands in a terminal window:
+ pip install pymodbus
+ If you want to use the serial interface:
+ pip install pymodbus[serial] )
 
  🛑 Modbus register address changes based on the product. Use attached Modbus manual for register table information.
 
